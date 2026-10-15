@@ -1,0 +1,38 @@
+{
+  "name": "walcay",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "format": "biome format --write ./src",
+    "lint": "biome lint ./src",
+    "check": "biome check --write ./src",
+    "generate:wall-overview": "tsx scripts/generate-wall-overview.ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "pixi.js": "^8.22.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.18.4",
+    "zustand": "^4.5.5"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.3",
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.20",
+    "dotenv": "^18.0.5",
+    "postcss": "^8.4.45",
+    "sharp": "^0.35.5",
+    "tailwindcss": "^4.3.3",
+    "tsx": "^4.23.15",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.1"
+  }
+}

@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  /* Future design tokens go here */
+}
+
+@layer base {
+  html,
+  body {
+    @apply h-full w-full m-0 p-0 box-border bg-neutral-950 text-neutral-100 font-sans antialiased;
+  }
+
+  #root {
+    @apply h-full w-full;
+  }
+}
